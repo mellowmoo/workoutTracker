@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 // define the Schema
-const WormoutSchema = new Schema ({
+const WorkoutSchema = new Schema ({
     day: {
         type: Date,
         default: () => new Date()
